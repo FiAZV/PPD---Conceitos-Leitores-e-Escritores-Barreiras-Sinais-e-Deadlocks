@@ -1,7 +1,7 @@
-#include <pthread.h>   // Biblioteca para manipulação de threads POSIX
-#include <stdio.h>     // Biblioteca para funções de entrada e saída
-#include <stdlib.h>    // Biblioteca para funções utilitárias, como rand()
-#include <unistd.h>    // Biblioteca para funções de controle de processos e sleep()
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h> 
 
 // Definição do número de threads e barreiras
 #define NUM_THREADS 5
